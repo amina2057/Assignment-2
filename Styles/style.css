@@ -13,7 +13,7 @@ justify-content: space-between;
 align-items: center;
 font-size: 25px;
 color: #131318;
-font-weight: 800; 
+font-weight: 800
 }
  .nav-container {
     display: flex;
@@ -132,8 +132,65 @@ h2 {
 color: #FFF;
 text-align: center;
 font-size: 30px;
-font-weight: 800;
+font-weight: 800px;
 padding: 100px;
+}
+.service {
+    text-align: center;
+    margin: 20px 200px;
+}
+.service-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin:20px 300px;
+    
+}
+.service-1 div {
+    background: navajowhite;
+    border-radius: 16px;
+    padding: 30px;
+}
+.service-2 {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 400px;
+    padding: 0%;
+    background: navajowhite;
+    border-radius: 16px;
+    padding: 30px;
+}
+.act-text {
+    text-align: center;
+    margin: 0% 200px;
+}
+.act-video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 60px;
+    max-width: 1200px;
+}
+ /* footer section */
+ footer{
+    max-width: 1200px;
+    background: navajowhite;
+    margin: 0% auto;
+ }
+.icons {
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin:30px 400px ;
+    padding: 20px;
+}
+.l-text {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
 }
 
 
